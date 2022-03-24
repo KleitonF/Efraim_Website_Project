@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "open sans","helvetica neue",Helvetica,Arial,sans-serif;
+    text-decoration: none;
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    position: sticky;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction:row;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.it_header{
+    height: 60px;
+}
+
+#container_logo{
+    /* background-color: blueviolet; */
+    width: 330px;
+}
+
+#logo_efraim{
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 70%;
+}
+
+#container_menu{
+    /* background-color: brown; */
+    width: 330px;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.link_it_menu{
+    color: rgb(223, 174, 15);
+    font-weight: bolder;
+    padding: 10px;
+    text-shadow: 0px 0px 5px rgb(223, 174, 15);
+    font-size: large;
+}
+
+.link_it_menu:hover{
+    color: black;
+    background-color: rgb(253, 207, 55);
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgb(223, 174, 15);
+}
+
+#container_social{
+    /* background-color: green; */
+    width: 330px;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.ico_social{
+    margin: 5px;
+    width: 30px;
+}
+
+#section_hero{
+    overflow: hidden;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.img_hero{
+    width: 50%;
+    min-width: 400px;
+}
+
+#img_hero_1{
+    height: 90%;
+}
+
+#section_agendamento{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 12%;
+    padding-bottom: 12%;
+}
+
+.ico_agendamento{
+    width: 190px;
+    box-shadow: 0px 0px 5px rgb(223, 174, 15);
+    border-radius: 25px;
+}
+
+h2{
+    text-align: center;
+    color: rgb(223, 174, 15);
+    text-shadow: 0px 0px 5px rgb(223, 174, 15);
+    margin-bottom: 20px;
+}
